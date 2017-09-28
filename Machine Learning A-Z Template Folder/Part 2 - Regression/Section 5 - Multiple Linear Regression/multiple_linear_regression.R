@@ -19,6 +19,8 @@ regressor = lm(formula = Profit ~ ., data = training_set )
 
 y_pred = predict(regressor,newdata = test_set)
 
+
+
 # # Feature Scaling
 # # training_set = scale(training_set)
 # # test_set = scale(test_set)
